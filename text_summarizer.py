@@ -17,7 +17,7 @@ response = client.responses.create(
     model="gpt-4.1-mini",
     input=[
         {"role":"system","content":"You are a copyrighting assistent."},
-        {"role":"user","content":"Summurize following story in 2 sentences: "+story}
+        {"role":"user","content":"Summarize the following story in 2 sentences: "+story}
     ]
 )
 
