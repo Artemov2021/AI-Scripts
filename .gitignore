@@ -1,0 +1,9 @@
+# Excel outputs
+*.xls*
+
+# Test file
+test.py
+
+# Pyinstaller
+build/
+dist/
